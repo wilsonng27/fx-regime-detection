@@ -1,0 +1,20 @@
+# Ignore Excel data files (Bloomberg data compliance)
+*.xlsx
+*.xls
+
+# Ignore generated CSV outputs and output directories
+*.csv
+adf_hold_lock_outputs/
+adf_hysteresis_outputs/
+adf_smoothed_outputs/
+
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+
+# Ignore Mac system files (if you are on a Mac)
+.DS_Store
+
